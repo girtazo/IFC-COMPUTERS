@@ -1,0 +1,88 @@
+table {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 3px solid #000000;
+	border-radius: 7px;
+	float: left;
+	border-spacing: 0px;
+}
+td {
+	border-bottom: 1px solid #000000;
+	padding: 0px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+#contacto table {
+	border:initial;
+}
+#contacto td {
+	border:initial;
+}
+#pedidos {
+	text-align: center;
+}
+#pedidos td {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+#usuarios {
+	text-align: center;
+}
+#usuarios td {
+	padding-left: 17px;
+	padding-right: 17px;
+}
+#menuAreaPrivada a {
+    color: #FFFFFF;
+    text-decoration: initial;
+}
+.text-right {
+	text-align: right;
+}
+.modificable:hover {
+	background-color: #000000;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+.modificable img {
+	height: 26px;
+	width: 30px;
+	margin-left: 5px;
+}
+#menuAreaPrivada h3 {
+	color: #FFFFFF;
+	margin: 0px;
+}
+.margen {
+	width: 156px;
+}
+.hover {
+	background-color: #000000 !important;
+	color:#FFFFFF;
+}
+#menuAreaPrivada {
+	float: left;
+	margin: 0px;
+	margin-left: 1%;
+	margin-top: 27px;
+}
+#menuAreaPrivada li {
+	border-radius: 5px;
+	background-color: #271334;
+	text-align: -webkit-center;
+}
+#menuAreaPrivada li:hover {
+	background-color: #000000;
+}
+#menuAreaPrivada h3 {
+	margin-top: 10px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+#contenido_menu {
+	float: left;
+	margin-top: 34px;
+	margin-left: 5%;
+}

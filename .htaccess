@@ -1,0 +1,24 @@
+# Activar RewriteEngine
+RewriteEngine on
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  clientes/NOMBRE/
+#   Salida: clientes.php?id=NOMBRE
+
+RewriteRule ^INICIO$ index.php
+RewriteRule ^inicio$ index.php
+RewriteRule ^Inicio$ index.php
+RewriteRule ^ORDENADORES$ index.php
+RewriteRule ^ordenadores$ index.php
+RewriteRule ^Ordenadores$ index.php
+RewriteRule ^SERVICIOS$ index.php
+RewriteRule ^servicios$ index.php
+RewriteRule ^Servicios$ index.php
+RewriteRule ^PEDIDO$ index.php
+RewriteRule ^pedido$ index.php
+RewriteRule ^Pedido$ index.php
+RewriteRule ^AREAPRIVADA$ index.php
+RewriteRule ^Areaprivada$ index.php
+RewriteRule ^areaprivada$ index.php
+RewriteRule ^AREAPRIVADA/(\w+)/?$ index.php
+RewriteRule ^Areaprivada/(\w+)/?$ index.php
+RewriteRule ^areaprivada/(\w+)/?$ index.php

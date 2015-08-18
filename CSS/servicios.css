@@ -1,0 +1,27 @@
+h3 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+#servicios {
+	width: 80%;
+	margin-top: 28px;
+	border: 1px solid #357ebd;
+}
+#servicios article {
+	margin-bottom: 23px;
+	display: table-header-group;
+}
+#descripcion {
+	width: 80%;
+}
+img.producto {
+	/*Servicios*/
+	margin: 6px;
+	margin-top: 1%;
+	margin-right: 2%;
+	width: 186px;
+	height: 115px;
+	float: left;
+	border-radius: 7px;
+	border: 5px solid;
+}

@@ -1,0 +1,65 @@
+caption {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: cursive;
+	font-variant: small-caps;
+	font-weight: bolder;
+	line-height: 29px;
+}
+table {
+	float: left;
+	font-style: italic;
+}
+tbody {
+	border-bottom-style: ridge;
+	border-color: #000000;
+	text-align: -webkit-auto;
+}
+thead {
+	background-color: slategray;
+}
+section#tablas {
+	margin: 9px;
+	margin-left:auto;
+	margin-right:auto;
+}
+table#personal {
+	border-collapse: collapse;
+	margin-left: 1%;
+}
+#personal td {
+	border-bottom: 1px solid;
+	padding-top: 25px;
+}
+td.text_right {
+	text-align: right;
+}
+td.text_center {
+	text-align: center;
+}
+table#envio {
+	height: 101px;
+	margin-left: 2%;
+	border-collapse: collapse;
+}
+table#pago {
+	height: 101px;
+	margin-left: 2%;
+	border-collapse: collapse;
+	width: 20%;
+}
+#envio td {
+	border-bottom: 1px solid;
+}
+table#productos {
+	margin-left: 2%;
+}
+img.flecha_cesta {
+	height: 21px;
+	position: relative;
+	top: 6px;
+}
+
+tfoot {
+background-color: coral;
+}
